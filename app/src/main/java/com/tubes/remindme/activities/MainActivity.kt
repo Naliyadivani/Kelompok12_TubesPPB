@@ -1,4 +1,4 @@
-package com.geeklabs.remindme.activities
+package com.tubes.remindme.activities
 
 import android.app.AlarmManager
 import android.app.PendingIntent
@@ -10,13 +10,13 @@ import android.widget.PopupMenu
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
-import com.geeklabs.remindme.R
-import com.geeklabs.remindme.adapters.ReminderAdapter
-import com.geeklabs.remindme.database.DatabaseHandler
-import com.geeklabs.remindme.models.Reminder
-import com.geeklabs.remindme.services.AlarmReceiver
-import com.geeklabs.remindme.services.ReminderService
-import com.geeklabs.remindme.utils.Util
+import com.tubes.remindme.R
+import com.tubes.remindme.adapters.ReminderAdapter
+import com.tubes.remindme.database.DatabaseHandler
+import com.tubes.remindme.models.Reminder
+import com.tubes.remindme.services.AlarmReceiver
+import com.tubes.remindme.services.ReminderService
+import com.tubes.remindme.utils.Util
 import com.google.android.gms.ads.MobileAds
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*

@@ -1,10 +1,10 @@
-package com.geeklabs.remindme.database
+package com.tubes.remindme.database
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import com.geeklabs.remindme.models.Reminder
+import com.tubes.remindme.models.Reminder
 
 class DatabaseHandler(context: Context) :
     SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {

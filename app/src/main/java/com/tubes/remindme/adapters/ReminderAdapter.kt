@@ -1,4 +1,4 @@
-package com.geeklabs.remindme.adapters
+package com.tubes.remindme.adapters
 
 import android.annotation.SuppressLint
 import android.graphics.Paint
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.geeklabs.remindme.R
-import com.geeklabs.remindme.models.Reminder
-import com.geeklabs.remindme.utils.Util
+import com.tubes.remindme.R
+import com.tubes.remindme.models.Reminder
+import com.tubes.remindme.utils.Util
 import kotlinx.android.synthetic.main.item_reminder.view.*
 
 class ReminderAdapter constructor(private val itemClick: OnItemClickListener) :

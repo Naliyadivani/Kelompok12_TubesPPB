@@ -45,7 +45,7 @@
         android:layout_above="@+id/adView"
         android:layout_alignParentEnd="true"
         android:layout_margin="@dimen/fab_margin"
-        android:backgroundTint="@color/colorPrimary"
+        android:backgroundTint="@color/colorBlue"
         android:tint="@color/colorWhite"
         app:srcCompat="@android:drawable/ic_input_add" />
 

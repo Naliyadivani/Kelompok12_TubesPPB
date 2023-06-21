@@ -6,10 +6,10 @@
     tools:context=".activities.SplashActivity">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="330dp"
+        android:layout_height="418dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/app_logo"
+        android:src="@drawable/minderize"
         tools:ignore="ContentDescription" />
 
 </RelativeLayout>

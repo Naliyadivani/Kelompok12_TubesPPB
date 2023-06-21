@@ -1,4 +1,4 @@
-package com.geeklabs.remindme.utils
+package com.tubes.remindme.utils
 
 import android.content.Context
 import android.widget.Toast

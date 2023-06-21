@@ -1,4 +1,4 @@
-package com.geeklabs.remindme.activities
+package com.tubes.remindme.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -20,7 +20,7 @@ class SplashActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
 
-        setContentView(com.geeklabs.remindme.R.layout.activity_splash)
+        setContentView(com.tubes.remindme.R.layout.activity_splash)
 
         Handler().postDelayed({
             val splashIntent = Intent(this, MainActivity::class.java)

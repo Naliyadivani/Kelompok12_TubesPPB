@@ -1,4 +1,4 @@
-package com.geeklabs.remindme.services
+package com.tubes.remindme.services
 
 import android.content.BroadcastReceiver
 import android.content.Context

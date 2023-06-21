@@ -1,4 +1,4 @@
-package com.geeklabs.remindme.services
+package com.tubes.remindme.services
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -12,10 +12,10 @@ import android.os.IBinder
 import android.speech.tts.TextToSpeech
 import android.util.Log
 import androidx.core.app.NotificationCompat
-import com.geeklabs.remindme.R
-import com.geeklabs.remindme.activities.MainActivity
-import com.geeklabs.remindme.database.DatabaseHandler
-import com.geeklabs.remindme.models.Reminder
+import com.tubes.remindme.R
+import com.tubes.remindme.activities.MainActivity
+import com.tubes.remindme.database.DatabaseHandler
+import com.tubes.remindme.models.Reminder
 import java.util.*
 
 
@@ -65,7 +65,7 @@ class ReminderService : Service() {
         createNotificationChannel(reminder.id.toInt())
         // build notification
         val builder = NotificationCompat.Builder(this, reminder.id.toString())
-            .setSmallIcon(R.drawable.app_logo) //set icon for notification
+            .setSmallIcon(R.drawable.minderize) //set icon for notification
             .setContentTitle(reminder.title) //set title of notification
             .setContentText(reminder.description)//this is notification message
             .setAutoCancel(true) // makes auto cancel of notification
